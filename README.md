@@ -27,8 +27,10 @@ Pastikan Python 3.14+ sudah terinstall di sistem kamu.
 ```bash
 git clone [https://github.com/username-kamu/nama-repo-kamu.git](https://github.com/username-kamu/nama-repo-kamu.git)
 cd nama-repo-kamu
+```
 
 ### 3. Install Library
+```bash
 pip install -r requirements.txt
 playwright install
 
@@ -37,3 +39,4 @@ pytest
 
 Pytest akan secara otomatis membaca file pytest.ini.
 Laporan hasil tes langsung ter-update di folder reports/report.html.
+```
