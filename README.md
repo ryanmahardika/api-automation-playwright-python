@@ -36,7 +36,7 @@ playwright install
 ```
 
 ### 4. Generate Report Tests
-Untuk memunculkan report hasil semua test coverage di terminal, cukup jalankan perintah singkat ini di terminal:
+Untuk memunculkan report hasil semua test coverage, cukup jalankan perintah singkat ini di terminal:
 ```bash
 pytest
 ```
