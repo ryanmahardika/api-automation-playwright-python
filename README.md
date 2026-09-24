@@ -19,7 +19,6 @@ Project ini dibuat sebagai portofolio pengujian otomatisasi API.
 | `/users/search` | `GET` | Verifikasi Search Spesifik User | Positive | ✅ Passed |
 
 ## Cara Menjalankan Tes Secara Lokal
-
 ### 1. Python Version
 Pastikan Python 3.14+ sudah terinstall di sistem kamu.
 
