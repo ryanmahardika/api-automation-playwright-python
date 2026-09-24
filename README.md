@@ -24,8 +24,8 @@ Pastikan Python 3.14+ sudah terinstall di sistem kamu.
 
 ### 2. Clone Repository
 ```bash
-git clone https://github.com/username-kamu/nama-repo-kamu.git
-cd nama-repo-kamu
+git clone https://github.com/username-kamu/nama-repo.git
+cd nama-repo
 ```
 
 ### 3. Install Library
