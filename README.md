@@ -34,9 +34,9 @@ cd nama-repo-kamu
 pip install -r requirements.txt
 playwright install
 
-Untuk memunculkan report hasil semua test coverage di terminal, Cukup jalankan perintah singkat ini di terminal:
+Untuk memunculkan report hasil semua test coverage di terminal, cukup jalankan perintah singkat ini di terminal:
 pytest
 
 Pytest akan secara otomatis membaca file pytest.ini.
-Laporan hasil tes langsung ter-update di folder reports/report.html.
+Laporan hasil tes langsung ter-update di folder test/reports/report.html.
 ```
