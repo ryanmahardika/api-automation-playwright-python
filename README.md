@@ -2,7 +2,7 @@
 
 Project ini berisi *automation testing framework* untuk menguji REST API menggunakan **Playwright (Python APIRequestContext)** dan **Pytest**. 
 
-Project ini dibuat sebagai portofolio pengujian otomatisasi API dengan fokus pada *clean code*
+Project ini dibuat sebagai portofolio pengujian otomatisasi API.
 
 ## Tech Stack & Tools
 * **Language:** Python 3.14+
