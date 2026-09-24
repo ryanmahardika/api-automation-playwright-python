@@ -1,4 +1,4 @@
-# API Automation Testing Portfolio (Playwright + Python)
+# API Automation Testing (Playwright + Python)
 
 Project ini berisi *automation testing framework* untuk menguji REST API menggunakan **Playwright (Python APIRequestContext)** dan **Pytest**. 
 
