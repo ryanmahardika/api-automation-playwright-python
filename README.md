@@ -31,12 +31,13 @@ cd nama-repo-kamu
 
 ### 3. Install Library
 ```bash
+Cara install-nya cukup jalankan ini di terminal:
 pip install -r requirements.txt
 playwright install
+```
 
 Untuk memunculkan report hasil semua test coverage di terminal, cukup jalankan perintah singkat ini di terminal:
 pytest
 
 Pytest akan secara otomatis membaca file pytest.ini.
 Laporan hasil tes langsung ter-update di folder tests/reports/report.html.
-```
