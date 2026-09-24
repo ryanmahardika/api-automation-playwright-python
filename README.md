@@ -37,7 +37,9 @@ playwright install
 ```
 
 Untuk memunculkan report hasil semua test coverage di terminal, cukup jalankan perintah singkat ini di terminal:
+```bash
 pytest
+```
 
 Pytest akan secara otomatis membaca file pytest.ini.
 Laporan hasil tes langsung ter-update di folder tests/reports/report.html.
