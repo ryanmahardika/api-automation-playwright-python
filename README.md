@@ -30,8 +30,8 @@ cd nama-repo-kamu
 ```
 
 ### 3. Install Library
-```bash
 Cara install-nya cukup jalankan ini di terminal:
+```bash
 pip install -r requirements.txt
 playwright install
 ```
