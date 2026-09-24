@@ -47,5 +47,5 @@ Laporan hasil tes langsung ter-update di folder tests/reports/report.html.
 
 Berikut adalah laporan hasil eksekusi pengujian otomatis menggunakan Pytest HTML Reporter:
 
-![Execution Report](./reports/report-screenshot.png)
-![Execution Report](./reports/report-screenshot1.png)
+![Execution Report](.tests/reports/report-screenshot.png)
+![Execution Report](.tests/reports/report-screenshot1.png)
