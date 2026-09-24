@@ -42,3 +42,10 @@ pytest
 ```
 Pytest akan secara otomatis membaca file pytest.ini.
 Laporan hasil tes langsung ter-update di folder tests/reports/report.html.
+
+## Hasil Eksekusi Test (Test Report)
+
+Berikut adalah laporan hasil eksekusi pengujian otomatis menggunakan Pytest HTML Reporter:
+
+![Execution Report](./reports/report-screenshot.png)
+![Execution Report](./reports/report-screenshot1.png)
