@@ -17,6 +17,7 @@ Project ini dibuat sebagai portofolio pengujian otomatisasi API.
 | `/auth/login` | `POST` | Verifikasi Login User dan Check User Credentials | Positive | ✅ Passed |
 | `/auth/me` | `GET` | Verifikasi Detail User Menggunakan Credentials (Token) | Positive | ✅ Passed |
 | `/users/search` | `GET` | Verifikasi Search Spesifik User | Positive | ✅ Passed |
+| `/auth/login` | `POST` | Verifikasi Error Message Login User (Negative Case) | Negative | ✅ Passed |
 
 ## Cara Menjalankan Tes Secara Lokal
 ### 1. Python Version
@@ -48,3 +49,6 @@ Laporan hasil tes langsung ter-update di folder tests/reports/report.html.
 Berikut adalah laporan hasil pengujian otomatis menggunakan Pytest HTML Reporter:
 ![Execution Report](/tests/reports/report-screenshot1.png)
 ![Execution Report](/tests/reports/report-screenshot2.png)
+
+Untuk hasil negative case:
+![Execution Report](/tests/reports/report-screenshot3.png)

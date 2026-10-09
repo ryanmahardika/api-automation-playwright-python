@@ -1,6 +1,7 @@
 import os
 from typing import Generator
 import pytest
+from pytest_html import extras
 from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright, Playwright, APIRequestContext
 
@@ -65,3 +66,25 @@ def authenticated_context(playwright_instance: Playwright, auth_token: str) -> G
     )
     yield authed_context
     authed_context.dispose()
+
+# Untuk memasukkan log response API (seperti status code, URL, payload, dan response body JSON) secara otomatis ke dalam laporan HTML
+@pytest.hookimpl(hookwrapper=True)
+def pytest_runtest_makereport(item, call):
+    outcome = yield
+    report = outcome.get_result()
+
+    if report.when == "call":
+        # Gunakan 'extras' (memakai akhiran 's') untuk pytest-html v4+
+        extra_items = getattr(report, "extras", [])
+
+        # Ambil output stdout/print dari tes
+        stdout = report.capstdout
+        if stdout:
+            extra_items.append(extras.text(stdout, name="API Execution Logs"))
+
+        # Jika tes gagal, sertakan traceback error
+        if report.failed and hasattr(report, "longreprtext"):
+            extra_items.append(extras.text(report.longreprtext, name="Error Traceback"))
+
+        # Assign kembali ke report.extras
+        report.extras = extra_items
