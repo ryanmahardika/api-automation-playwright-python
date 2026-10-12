@@ -4,3 +4,4 @@ pytest-playwright
 pytest-asyncio
 python-dotenv
 pytest-html
+pytest-html-reporter

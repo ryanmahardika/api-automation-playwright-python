@@ -52,3 +52,6 @@ Berikut adalah laporan hasil pengujian otomatis menggunakan Pytest HTML Reporter
 
 Untuk hasil negative case:
 ![Execution Report](/tests/reports/report-screenshot3.png)
+
+Untuk laporan hasil pengujian otomatis berupa dashboard:
+![Execution Report](/tests/reports/report-screenshot4.png)
