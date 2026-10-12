@@ -42,7 +42,7 @@ Untuk memunculkan report hasil semua test coverage, cukup jalankan perintah sing
 pytest
 ```
 Pytest akan secara otomatis membaca file pytest.ini.
-Laporan hasil tes langsung ter-update di folder tests/reports/report.html.
+Laporan hasil tes langsung ter-update di folder tests/reports
 
 ## Hasil Test (Test Report)
 
